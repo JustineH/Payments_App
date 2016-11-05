@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		527365491DCD0D4500698C7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 527365481DCD0D4500698C7B /* main.m */; };
+		527365511DCD0D7300698C7B /* DollarValueGen.m in Sources */ = {isa = PBXBuildFile; fileRef = 527365501DCD0D7300698C7B /* DollarValueGen.m */; };
+		527365541DCD0F3900698C7B /* InputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 527365531DCD0F3900698C7B /* InputHandler.m */; };
+		527365571DCD1A6A00698C7B /* PaymentGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = 527365561DCD1A6A00698C7B /* PaymentGateway.m */; };
+		5273655B1DCD20F100698C7B /* AmazonPaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5273655A1DCD20F100698C7B /* AmazonPaymentService.m */; };
+		5273655E1DCD210C00698C7B /* PaypalPaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5273655D1DCD210C00698C7B /* PaypalPaymentService.m */; };
+		527365611DCD213800698C7B /* StripePaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 527365601DCD213800698C7B /* StripePaymentService.m */; };
+		527365641DCD433400698C7B /* ApplePaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 527365631DCD433400698C7B /* ApplePaymentService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		527365431DCD0D4500698C7B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		527365451DCD0D4500698C7B /* Payments_App */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Payments_App; sourceTree = BUILT_PRODUCTS_DIR; };
+		527365481DCD0D4500698C7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5273654F1DCD0D7300698C7B /* DollarValueGen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DollarValueGen.h; sourceTree = "<group>"; };
+		527365501DCD0D7300698C7B /* DollarValueGen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DollarValueGen.m; sourceTree = "<group>"; };
+		527365521DCD0F3900698C7B /* InputHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputHandler.h; sourceTree = "<group>"; };
+		527365531DCD0F3900698C7B /* InputHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputHandler.m; sourceTree = "<group>"; };
+		527365551DCD1A6A00698C7B /* PaymentGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentGateway.h; sourceTree = "<group>"; };
+		527365561DCD1A6A00698C7B /* PaymentGateway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentGateway.m; sourceTree = "<group>"; };
+		527365591DCD20F100698C7B /* AmazonPaymentService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmazonPaymentService.h; sourceTree = "<group>"; };
+		5273655A1DCD20F100698C7B /* AmazonPaymentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonPaymentService.m; sourceTree = "<group>"; };
+		5273655C1DCD210C00698C7B /* PaypalPaymentService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaypalPaymentService.h; sourceTree = "<group>"; };
+		5273655D1DCD210C00698C7B /* PaypalPaymentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaypalPaymentService.m; sourceTree = "<group>"; };
+		5273655F1DCD213800698C7B /* StripePaymentService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StripePaymentService.h; sourceTree = "<group>"; };
+		527365601DCD213800698C7B /* StripePaymentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StripePaymentService.m; sourceTree = "<group>"; };
+		527365621DCD433400698C7B /* ApplePaymentService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplePaymentService.h; sourceTree = "<group>"; };
+		527365631DCD433400698C7B /* ApplePaymentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplePaymentService.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		527365421DCD0D4500698C7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5273653C1DCD0D4500698C7B = {
+			isa = PBXGroup;
+			children = (
+				527365471DCD0D4500698C7B /* Payments_App */,
+				527365461DCD0D4500698C7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		527365461DCD0D4500698C7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				527365451DCD0D4500698C7B /* Payments_App */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		527365471DCD0D4500698C7B /* Payments_App */ = {
+			isa = PBXGroup;
+			children = (
+				527365481DCD0D4500698C7B /* main.m */,
+				527365521DCD0F3900698C7B /* InputHandler.h */,
+				527365531DCD0F3900698C7B /* InputHandler.m */,
+				5273654F1DCD0D7300698C7B /* DollarValueGen.h */,
+				527365501DCD0D7300698C7B /* DollarValueGen.m */,
+				527365551DCD1A6A00698C7B /* PaymentGateway.h */,
+				527365561DCD1A6A00698C7B /* PaymentGateway.m */,
+				527365621DCD433400698C7B /* ApplePaymentService.h */,
+				527365631DCD433400698C7B /* ApplePaymentService.m */,
+				527365591DCD20F100698C7B /* AmazonPaymentService.h */,
+				5273655A1DCD20F100698C7B /* AmazonPaymentService.m */,
+				5273655C1DCD210C00698C7B /* PaypalPaymentService.h */,
+				5273655D1DCD210C00698C7B /* PaypalPaymentService.m */,
+				5273655F1DCD213800698C7B /* StripePaymentService.h */,
+				527365601DCD213800698C7B /* StripePaymentService.m */,
+			);
+			path = Payments_App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		527365441DCD0D4500698C7B /* Payments_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5273654C1DCD0D4500698C7B /* Build configuration list for PBXNativeTarget "Payments_App" */;
+			buildPhases = (
+				527365411DCD0D4500698C7B /* Sources */,
+				527365421DCD0D4500698C7B /* Frameworks */,
+				527365431DCD0D4500698C7B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Payments_App;
+			productName = Payments_App;
+			productReference = 527365451DCD0D4500698C7B /* Payments_App */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5273653D1DCD0D4500698C7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Justine Herman";
+				TargetAttributes = {
+					527365441DCD0D4500698C7B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 527365401DCD0D4500698C7B /* Build configuration list for PBXProject "Payments_App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5273653C1DCD0D4500698C7B;
+			productRefGroup = 527365461DCD0D4500698C7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				527365441DCD0D4500698C7B /* Payments_App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		527365411DCD0D4500698C7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527365611DCD213800698C7B /* StripePaymentService.m in Sources */,
+				527365641DCD433400698C7B /* ApplePaymentService.m in Sources */,
+				527365511DCD0D7300698C7B /* DollarValueGen.m in Sources */,
+				5273655B1DCD20F100698C7B /* AmazonPaymentService.m in Sources */,
+				527365541DCD0F3900698C7B /* InputHandler.m in Sources */,
+				527365491DCD0D4500698C7B /* main.m in Sources */,
+				527365571DCD1A6A00698C7B /* PaymentGateway.m in Sources */,
+				5273655E1DCD210C00698C7B /* PaypalPaymentService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5273654A1DCD0D4500698C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5273654B1DCD0D4500698C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5273654D1DCD0D4500698C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5273654E1DCD0D4500698C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		527365401DCD0D4500698C7B /* Build configuration list for PBXProject "Payments_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5273654A1DCD0D4500698C7B /* Debug */,
+				5273654B1DCD0D4500698C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5273654C1DCD0D4500698C7B /* Build configuration list for PBXNativeTarget "Payments_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5273654D1DCD0D4500698C7B /* Debug */,
+				5273654E1DCD0D4500698C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5273653D1DCD0D4500698C7B /* Project object */;
+}
